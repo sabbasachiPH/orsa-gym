@@ -1,19 +1,18 @@
-.navbar h3{
+.navbar {
+  background-color: rgba(0, 0, 0, 0.65);
+  h3 {
     padding-left: 30px;
     padding-top: 5px;
     color: white;
-}
-
-.navbar .navbar-nav{
+  }
+  .navbar-nav {
     padding-right: 50px;
-    
-}
-
-.navbar a{
+  }
+  a {
     margin-right: 20px;
     color: white;
+  }
 }
-
-.X{
-    color: yellow;
+.X {
+  color: yellow;
 }

@@ -1,22 +1,20 @@
-import React from 'react';
-import './Home.css';
+import React from "react";
+import "./Home.scss";
 
-import About from './About';
-import WhyUs from './WhyUs';
-import Welcome from './Welcome'
-import Train from './Train'
+import About from "./About";
+import WhyUs from "./WhyUs";
+import Welcome from "./Welcome";
+import Train from "./Train";
 
 const Home = () => {
-    return (
-        <div>
-
-            <Welcome></Welcome>
-            <About></About>
-            <Train></Train>
-            <WhyUs></WhyUs>
-
-        </div>
-    );
+  return (
+    <div>
+      <Welcome></Welcome>
+      <About></About>
+      <Train></Train>
+      <WhyUs></WhyUs>
+    </div>
+  );
 };
 
 export default Home;
