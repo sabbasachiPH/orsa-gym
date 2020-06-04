@@ -1,14 +1,14 @@
-import React from "react";
-import image from "../../power-x-gym/Image & Icon/wells-chan-H-vAxuWxmi8-unsplash.jpg";
-import "./About.scss";
+import React from 'react';
+import image from '../../power-x-gym/Image & Icon/wells-chan-H-vAxuWxmi8-unsplash.jpg'
+import './About.scss';
 
 const About = () => {
-  return (
-    <div className="container">
-      <div className="row">
-        <div className="col-md-6">
-          <img src={image} alt="" />
-        </div>
+    return (
+        <div className='container'>
+            <div className='row'>
+                <div className='col-md-6'>
+                    <img src={image} alt="" />
+                </div>
 
         <div className="col-md-6">
           <h1 id="aus">ABOUT US</h1>
